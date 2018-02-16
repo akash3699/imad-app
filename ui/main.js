@@ -25,11 +25,11 @@ button.onclick=function (){
         }
         
         
-    };
+    }
     request.open('GET','http://akash3699.imad.hasura-app.io/counter',true);
     request.send(null);
     
     
     //counter=counter+1;
     
-};
+}
